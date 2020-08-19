@@ -1,0 +1,140 @@
+body{
+    background-color:white;
+}
+
+.page-container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.flex-container{
+    display:flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.size li {
+   display: inline;
+   margin-right: 25px;
+}
+
+.size{
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-1{
+    font-size: 13px;
+    font-family: Arial;
+    color: grey;
+    height: 50px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border-width: 1px solid lightgrey;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.button-1:hover{
+     background-color:lightslategray;
+     color: white;
+
+}
+
+
+a{
+    color:grey;
+    text-decoration: none;
+    text-align: center;
+    
+}
+a:hover{
+    color:black;
+}
+
+.style{
+    font-size: 25px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    letter-spacing:6px; 
+    margin-right: 0em;
+
+}
+
+.ftsize{
+    font-size: 13px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color:lightgrey;
+    font-family: Helvetica;
+    letter-spacing:6px;
+    
+}
+
+.image-container{
+    margin-top: 35px;
+    margin-bottom: 300px;
+    display: flex;
+    position: relative;
+    background-color: hotpink;
+}
+
+.words-container{
+    top: 0;
+    bottom:0;
+    right:0;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
+    font-size: 30px;
+    word-spacing: 10px;
+    font-family: Arial;
+    letter-spacing: 10px;
+}
+
+.landing-image{
+    width:100%;
+    height: 100%;
+}
+
+p{
+    margin-top: 0;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 8px;
+    word-spacing: 8px;
+}
+
+
+
+ .image-container button{
+    position: absolute;
+    top: 65%;
+    left: 37%;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 15px;
+    width: 250px;
+    height: 70px; 
+    font-family: Arial;
+    cursor: pointer;
+    letter-spacing: 3px;
+    border: whitesmoke;
+    
+}
+
+ .image-container button:hover{
+    color: white;
+}
